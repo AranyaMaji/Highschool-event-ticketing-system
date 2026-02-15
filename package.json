@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/dotenv": "^1.4.2",
+    "@vuestic/nuxt": "^1.0.21",
+    "firebase": "^10.13.1",
+    "firebase-functions": "^5.1.1",
+    "nodemailer": "^6.9.15",
+    "nuxt": "^3.13.0",
+    "nuxt-mail": "^5.0.1",
+    "qrcode": "^1.5.4",
+    "vue": "latest",
+    "vue-qrcode-reader": "^5.5.7",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.15",
+    "@types/qrcode": "^1.5.5"
+  }
+}
